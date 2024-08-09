@@ -1,0 +1,21 @@
+{
+  "name": "base_node_js_project_template",
+  "version": "1.0.0",
+  "description": "A basic starter boilerplate project for node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "winston": "^3.13.1"
+  }
+}
