@@ -5,7 +5,7 @@ const info = (req, res) => {
       success: true,
       message: "API is live",
       error: {},
-      data: {},
+      data: {message: 'From Booking Service'},
     });
 }
 
